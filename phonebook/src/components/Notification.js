@@ -10,7 +10,7 @@ const Notification = ({message, type, setMessage, setType}) => {
             const timer = setTimeout(() => {
                 setMessage(null);
                 setType('');
-            }, 5000);
+            }, 10000);
             return () => clearTimeout(timer);
         }
     }, [message]);

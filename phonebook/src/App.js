@@ -36,6 +36,8 @@ const App = () => {
     event.preventDefault();
 
     const existingPerson = persons.find(person => person.name === newName);
+    // validate inputs
+    
 
     // Update person if newName already exists, otherwise add new person
     if (existingPerson) {

@@ -14,7 +14,7 @@ const create = (name, number) => (
     axios
         .post(baseUrl, {name, number})
         .then(response => response.data)
-);
+)
 
 // remove a person from phonebook
 const remove = id => axios.delete(`${baseUrl}/${id}`);
