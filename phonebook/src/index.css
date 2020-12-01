@@ -1,0 +1,19 @@
+/* Exercise 2.19 & 2.20 Phonebook - Step 11 & 12 */
+
+.info {
+  color: rgb(0, 130, 0);
+}
+
+.error {
+  color: rgb(255, 9, 9);
+}
+
+.info, .error {
+  background: rgb(154, 154, 154);
+  font-size: 25px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
